@@ -1,0 +1,27 @@
+{
+  "name": "p10-oauth2-api-key-230104040126",
+  "version": "1.0.0",
+  "description": "Praktikum 10: Simulasi API Key & OAuth 2.0 (JWT)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeders/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "oauth2",
+    "jwt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.1"
+  }
+}
